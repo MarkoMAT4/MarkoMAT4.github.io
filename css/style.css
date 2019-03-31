@@ -1,0 +1,133 @@
+
+#pivo {
+    display: flex;
+    height: 150px;
+}
+
+body{
+    padding: 0% 15% 0% 15%;
+}
+
+.header {
+    background: #1abc9c;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .header > .logoSlika {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex: 0 0 150px;
+    height: 150px;
+  }
+  
+  .header > .naslov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .header > .naslov > h1 {
+      font-weight: bolder;
+  }
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(153, 219, 221);
+    justify-content: space-evenly;
+}
+.nav > div {
+    flex: 0 0 40%;
+    background:rgb(255, 131, 154);
+    padding: 15px 0;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+
+.glavno {
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: column;
+
+}
+
+.glavno > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glavno > div >h2 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.lista {
+    display: flex;
+}
+
+.lista > ul {
+    padding: 0;
+}
+
+.lista > ul >li {
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.kockapiva{
+    display: flex;
+    flex-grow: 2;
+    border: 1px solid black;
+    
+}
+
+.kockapiva > div {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.pivoSlika {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.slicica {
+    height:200px;
+
+}
+
+
+.pivoInfo {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end ;
+    padding-right:10px;
+    flex-direction: column;
+}
+
+.listaInformacija {
+    padding: 0;
+    margin: 0;
+}
+.pivoInfo > ul >li {
+    text-align: right;
+        list-style-position: inside;
+
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
