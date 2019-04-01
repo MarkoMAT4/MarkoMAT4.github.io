@@ -19,12 +19,11 @@ body{
     color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .header > .logoSlika {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 20px;
     flex: 0 0 150px;
     height: 150px;
