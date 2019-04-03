@@ -15,8 +15,8 @@ body{
   }
 
 .header {
-    background: #1abc9c;
-    color: white;
+    background: #db1838;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,15 +44,16 @@ body{
 .nav {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(153, 219, 221);
+    background-color: rgb(78, 27, 36);
     justify-content: space-evenly;
 }
 .nav > div {
     flex: 0 0 40%;
-    background:rgb(255, 131, 154);
+    background:rgb(211, 34, 66);
     padding: 15px 0;
     margin: 10px;
     text-align: center;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -60,7 +61,7 @@ body{
 
 .glavno {
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(34, 34, 34);
     flex-direction: column;
 
 }
@@ -74,6 +75,7 @@ body{
 .glavno > div >h2 {
     text-align: center;
     text-decoration-line: underline;
+    color: azure;
 }
 
 .lista {
@@ -98,7 +100,7 @@ body{
 
 .kockapiva > div {
     border: 1px solid black;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .pivoSlika {
@@ -134,5 +136,5 @@ body{
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(63, 63, 63);
   }
