@@ -7,9 +7,3 @@
 		</div>
 </div>
 
-<div class="nav">
-	<div ><a href="index.php"><h3>Pronadji pivo</h3></a></div>
-    <div ><a href="napravi.php"><h3>Napravi pivo</h3></a></div>
-    
-
-</div>

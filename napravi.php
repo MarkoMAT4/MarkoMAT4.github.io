@@ -12,6 +12,13 @@
 	<?php
 		require_once 'uvekisto.php';
 	?>
+
+<div class="nav">
+	<div ><a href="index.php"><h3>Pocetna stranica</h3></a></div>
+    <div ><a href="napravi.php"><h3>Dodaj pivaru</h3></a></div>
+
+</div>
+
 	<body>
 	<div class = glavno>
 		<div>
@@ -39,7 +46,9 @@
 				<h3>Slika: </h3>
 			<input type="text" name="urlSlike">
 			<br><br>
+				<div class = dugme>
 			<input type="submit" val="Dodaj" value="Dodaj pivo" >
+				</div>
 		</form>
 				</div>
 			

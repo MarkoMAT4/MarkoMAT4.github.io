@@ -48,7 +48,7 @@ body{
     justify-content: space-evenly;
 }
 .nav > div {
-    flex: 0 0 40%;
+    flex: 0 0 31%;
     background:rgb(211, 34, 66);
     padding: 15px 0;
     margin: 10px;
@@ -57,6 +57,32 @@ body{
 
 }
 
+a > h3{
+    color: lightgrey;
+    font-weight: bold;
+
+}
+
+.dugme {
+    flex: 0 0 31%;
+    background:rgb(211, 34, 66);
+    padding: 15px 0;
+    margin: 10px;
+    text-align: center;
+}
+
+.dugme > input {
+    background-color:rgb(211, 34, 66);
+    padding:5px 15px; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-weight: bold;
+    color: #ffffff;
+    font-size: x-large;
+
+}
 
 
 .glavno {

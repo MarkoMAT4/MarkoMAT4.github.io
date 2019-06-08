@@ -19,7 +19,14 @@
 
     <?php
 		require_once 'uvekisto.php';
-	?>
+    ?>
+    
+    <div class="nav">
+        <div ><a href="index.php"><h3>Pronadji pivo</h3></a></div>
+	    <div ><a href="napravi.php"><h3>Dodaj pivo</h3></a></div>
+        <div ><a href="index.php"><h3>Dodaj pivaru</h3></a></div>
+        
+    </div>
 
     <div class="glavno">
         <div>
