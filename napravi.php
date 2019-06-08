@@ -13,15 +13,16 @@
 		require_once 'uvekisto.php';
 	?>
 	<body>
+	<div class = glavno>
+		<div>
 		<form action="napravi.php" method="POST">
-			<p>Ime piva: </p>
-			<input type="text" name="ime">
-			<p>Procenat alkohola </p>
+				<h3>Imeee piva: </h3>
+			<input type="text" name="ime" >
+				<h3>Procenat alkohola </h3>
 			<input type="text" name="procenat">
-			<p>Godina porekla: </p>
+				<h3>Godina porekla: </h3>
 			<input type="text" name="godina">
-			
-			<p>Proizvodjac: </p>
+			<h3>Proizvodjac: </h3>
 			<select name="proizv">
 				
 				  <?php
@@ -33,13 +34,14 @@
 
 			</select>
 			
-			<p>Drzava tocenja: </p>
+				<h3>Drzava tocenja: </h3>
 			<input type="text" name="drzavaTocenja">
-			<p>Slika: </p>
+				<h3>Slika: </h3>
 			<input type="text" name="urlSlike">
-			<br>
-			<input type="submit" val="Dodaj"></input>
+			<br><br>
+			<input type="submit" val="Dodaj" value="Dodaj pivo" >
 		</form>
+				</div>
 			
 		<?php
 			if(isset($_POST["ime"])) {
@@ -63,6 +65,7 @@
 				
 			}
 		?>
+		</div>
 		<div class="footer">
             <h2>Copyright 2019</h2>
 		</div>
