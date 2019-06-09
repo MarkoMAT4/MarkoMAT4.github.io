@@ -23,8 +23,8 @@
     
     <div class="nav">
         <div ><a href="index.php"><h3>Pronadji pivo</h3></a></div>
-	    <div ><a href="napravi.php"><h3>Dodaj pivo</h3></a></div>
-        <div ><a href="index.php"><h3>Dodaj pivaru</h3></a></div>
+	    <div ><a href="dodajpivo.php"><h3>Dodaj pivo</h3></a></div>
+        <div ><a href="dodajpivaru.php"><h3>Dodaj pivaru</h3></a></div>
         
     </div>
 
@@ -46,7 +46,8 @@
 								<h3 class="pivoIme">' . $row["naziv"]. '</h3>
 								<ul class="listaInformacija">
 									<li>Drzava porekla: ' . $row["drzava"] . '</li>
-									<li>Proizvodjac: ' . $row["ime"] . '</li>
+                                    <li>Proizvodjac: ' . $row["ime"] . '</li>
+                                    <li>Godina porekla : ' . $row["godina_porekla"] . ' </li>
 									<li>Drzava tocenja: ' . $row["drzava_tocenja"] . '</li>
 									<li>' . $row["procenat"] . '% alkohola</li>
 									

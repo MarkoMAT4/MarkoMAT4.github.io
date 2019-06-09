@@ -53,11 +53,12 @@ body{
     padding: 15px 0;
     margin: 10px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    align-content: center;
 
 }
 
-a > h3{
+a > h3 {
+    text-align: center;
     color: lightgrey;
     font-weight: bold;
 
@@ -104,7 +105,7 @@ a > h3{
     color: azure;
 }
 
-.glavno > div > form> h3{
+.glavno > div > form > h3{
     padding-top: 5px;
     text-align: center;
     color: rgb(210, 245, 245);
