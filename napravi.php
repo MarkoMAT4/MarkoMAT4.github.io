@@ -20,7 +20,7 @@
 </div>
 
 	<body>
-	<div class = glavno>
+	<div class = "glavno">
 		<div>
 		<form action="napravi.php" method="POST">
 				<h3>Ime piva: </h3>

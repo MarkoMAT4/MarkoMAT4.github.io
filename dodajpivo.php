@@ -15,12 +15,13 @@
 
 <div class="nav">
 	<div ><a href="index.php"><h3>Pocetna stranica</h3></a></div>
-    <div ><a href="dodajpivaru.php"><h3>Dodaj pivaru</h3></a></div>
+	<div ><a href="pronadji.php"><h3>Pronadji pivo</h3></a></div>
+	<div ><a href="dodajpivaru.php"><h3>Dodaj pivaru</h3></a></div>
 
 </div>
 
 	<body>
-	<div class = glavno>
+	<div class = "glavno">
 		<div>
 		<form action="dodajpivo.php" method="POST">
 				<h3>Ime piva: </h3>

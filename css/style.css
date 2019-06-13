@@ -151,6 +151,10 @@ input[type=text]:focus {
     
 }
 
+.rezulat {
+    display: flex;
+}
+
 .kockapiva > div {
     border: 1px solid black;
     background-color: rgb(255, 255, 255);

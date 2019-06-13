@@ -22,7 +22,7 @@
     ?>
     
     <div class="nav">
-        <div ><a href="index.php"><h3>Pronadji pivo</h3></a></div>
+        <div ><a href="pronadji.php"><h3>Pronadji pivo</h3></a></div>
 	    <div ><a href="dodajpivo.php"><h3>Dodaj pivo</h3></a></div>
         <div ><a href="dodajpivaru.php"><h3>Dodaj pivaru</h3></a></div>
         
