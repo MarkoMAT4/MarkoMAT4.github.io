@@ -45,13 +45,13 @@
 				$osnivac = $_POST["osnivac"];
 			
 				if(empty($ime) or empty($poreklo) or empty($osnivac)){
-					echo '<h3 style="color:red">Unesite sve podatke</>';
+					echo '<p1 class="neuspeh">Unesite sve podatke!</p1>';
 				}else{
 				
 				$qryString = sprintf("INSERT INTO `proizvodjaci`(`ime`, `drzava`, `osnivac`) VALUES ('%s','%s','%s')", $ime, $poreklo, $osnivac);
 				
 				$link->query($qryString);
-				echo '<p>Svaka cast</p>';
+				echo '<p1 class="uspeh">Pivara je uspesno dodata!</p1>';
 				}
 			}
 		?>

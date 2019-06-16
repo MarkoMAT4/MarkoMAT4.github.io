@@ -129,7 +129,21 @@ textarea {
 
 input[type=text]:focus {
     background-color: rgb(212, 231, 238);
-  }
+}
+
+.uspeh {
+    color: #0066ff;
+    font-weight: bold;
+    align-self: center;
+    font-size: 200%;
+}
+
+.neuspeh {
+    color: #ff0000;
+    font-weight: bold;
+    align-self: center;
+    font-size: 200%;
+}
 
 .lista {
     display: flex;
@@ -148,7 +162,6 @@ input[type=text]:focus {
     display: flex;
     flex-grow: 2;
     border: 1px solid black;
-    
 }
 
 .rezulat {
@@ -158,16 +171,21 @@ input[type=text]:focus {
 .kockapiva > div {
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
+
 }
 
 .pivoSlika {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
 }
 .slicica {
     height:200px;
-
 }
 
 

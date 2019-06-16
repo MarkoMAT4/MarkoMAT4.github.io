@@ -30,7 +30,6 @@ $(document).ready(()=>{
 						htmlString += "<div class=\"pivoInfo\" class=\"listaInformacija\">";
 							htmlString += "<h3 class=\"pivoIme\">" + pivo["naziv"] + "</h3>";
 							htmlString += "<ul class=\"listaInformacija\">";
-								//TODO: treba dodati ime proizvodjaca iz ID-a
 								htmlString += "<li>Godina porekla: " + pivo["godina_porekla"] + "</li>";
 								htmlString += "<li>Drzava tocenja: " + pivo["drzava_tocenja"] + "</li>";
 								htmlString += "<li>" + pivo["procenat"] + "% alkohola";
@@ -38,13 +37,7 @@ $(document).ready(()=>{
 						htmlString +=  "</div>";
 					
 					htmlString += "</div></li>";
-					/*
-					<li>Drzava porekla: ' . $row["drzava"] . '</li>
-                                    <li>Proizvodjac: ' . $row["ime"] . '</li>
-                                    <li>Godina porekla : ' . $row["godina_porekla"] . ' </li>
-									<li>Drzava tocenja: ' . $row["drzava_tocenja"] . '</li>
-									<li>' . $row["procenat"] . '% alkohola</li>
-					*/
+			
 					
 					$("#rezlista").append(htmlString);
 				}

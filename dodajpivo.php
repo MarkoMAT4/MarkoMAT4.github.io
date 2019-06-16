@@ -62,7 +62,7 @@
 				$url = $_POST["urlSlike"];
 				
 				if(empty($ime) or empty($procenat) or empty($godina) or empty($drzava) or empty($url)){
-					echo '<h3 style="color:red">Unesite sve podatke</>';
+					echo '<p1 class="neuspeh">Unesite sve podatke!</p1>';
 				}else{
 					
 				
@@ -71,9 +71,10 @@
 				$qryString = sprintf("INSERT INTO `piva`(`naziv`, `godina_porekla`, `proizvodjacID`, `drzava_tocenja`, `urlSlike`, `procenat`) VALUES ('%s','%s','%s','%s','%s','%s')", $ime, $godina, $proizvodjac, $drzava, $url, $procenat);
 				
 				$link->query($qryString);
-				echo '<p>Svaka cast</p>';
+				echo '<p1 class="uspeh">Pivo je uspesno dodato!</p1>';
 				}
 			}
+
 		?>
 		</div>
 		<div class="footer">
