@@ -46,8 +46,7 @@ $(document).ready(()=>{
 		
 	}
 	
-	//$("#id") selektor
-	//kod obicnih polja $("#id").val();
+
  	
 	$("#ime").change(function(){
 		pretrazi("ime", $(this).val());
@@ -59,7 +58,6 @@ $(document).ready(()=>{
 		pretrazi("godina", $(this).val());
 	});
 	$("#proizv").change(function(){
-		//pokro sa interneta
 		pretrazi("proizv", $("#proizv option:selected").attr("value"));
 	});
 	$("#drzavaTocenja").change(function(){
